@@ -1,16 +1,16 @@
 <template>
-    <h1 class="p-8 font-body text-grayish-blue text-[1.5em] font-bold text-center">
-        {{ msg }}
-    </h1>
+    <main class="py-[121px] lg:h-screen lg:flex lg:items-center">
+        <AdviceGenerator />
+    </main>
 </template>
 
 <script>
+import AdviceGenerator from "@/components/AdviceGenerator";
+
 export default {
     name: "App",
-    data() {
-        return {
-            msg: "Hello World !!!"
-        }
+    components: {
+        AdviceGenerator
     }
 }
 </script>
