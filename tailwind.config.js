@@ -10,11 +10,15 @@ module.exports = {
             "neon-green": "hsl(150, 100%, 66%)",
             
             // === Neutral ===
-            "grayish-blue": "hsl(217, 19%, 38%)",
-            "dark-grayish-blue": "hsl(217, 19%, 24%)"
+            "grayish-blue": "hsl(218, 20%, 24%)",
+            "dark-grayish-blue": "hsl(220, 22%, 16%)"
         },
         fontFamily: {
             "body": ["Manrope", "sans-serif"]
+        },
+        screens: {
+            "md": "540px",
+            "lg": "1440px"
         }
     },
     plugins: [],
