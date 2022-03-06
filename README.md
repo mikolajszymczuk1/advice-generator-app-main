@@ -44,6 +44,7 @@ Users should be able to:
 - [Vue.js](https://vuejs.org/) - front-end framework
 - [Jest](https://jestjs.io/) - for unit testing
 - [TailwindCSS](https://tailwindcss.com/) - CSS Framework
+- [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js
 
 ### What I learned
 
